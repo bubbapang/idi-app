@@ -2,6 +2,17 @@ require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
+  config.action_dispatch.default_headers = {
+    'Access-Control-Allow-Origin' => 'http://localhost:3000',
+    'Access-Control-Allow-Methods' => 'POST, PUT, PATCH, DELETE, GET, OPTIONS',
+    'Access-Control-Allow-Headers' => 'Origin, X-Requested-With, Content-Type, Accept, Authorization',
+    'Access-Control-Allow-Credentials' => 'true'
+  }
+  
+  # config.action_cable.url = "ws://localhost:3000/cable"
+  config.action_cable.allowed_request_origins = ['http://localhost:3000']
+
+  # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded any time
   # it changes. This slows down response time but is perfect for development

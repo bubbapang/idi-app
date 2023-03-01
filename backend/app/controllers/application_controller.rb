@@ -1,23 +1,13 @@
 class ApplicationController < ActionController::Base
 
-    rescue_from StandardError, with: :unhandled_error
-    rescue_from ActionController::InvalidAuthenticityToken, with: :invalid_authenticity_token
-
-    rescue_from BrewException, with: :handle_brew_exception
-    
     include ActionController::RequestForgeryProtection
+    rescue_from ActionController::InvalidAuthenticityToken, with: :invalid_authenticity_token
+    rescue_from StandardError, with: :unhandled_error
     protect_from_forgery with: :exception
-
-    # update this line:
-    # before_action :snake_case_params, :attach_authenticity_token
     before_action :snake_case_params, :attach_authenticity_token, :require_logged_in
-
-    def handle_brew_exception
-        render json: ["I can't brew; I'm a teapot!"], status: 418
-    end
+    helper_method :current_user, :logged_in?
 
     def current_user
-        # user whose `session_token` == token in `session` cookie
         @current_user ||= User.find_by(session_token: session[:session_token])
     end
     
@@ -40,16 +30,12 @@ class ApplicationController < ActionController::Base
     end
 
     def test
-        if params.has_key?(:login)
-            login!(User.first)
-        elsif params.has_key?(:logout)
-            logout!
-        end
-
+        require_logged_in
+        
         if current_user
-            render json: { user: current_user.slice('id', 'username', 'session_token') }
+            render json: { user: current_user.slice('id', 'email', 'session_token') }
         else
-            render json: ['No current user']
+            render json: { error: 'No current user' }
         end
     end
 
@@ -72,7 +58,6 @@ class ApplicationController < ActionController::Base
         end
     end
 
-    # add this method to the `private` section of your controller:
     def attach_authenticity_token
         headers['X-CSRF-Token'] = masked_authenticity_token(session)
     end

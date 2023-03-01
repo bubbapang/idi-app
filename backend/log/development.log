@@ -149,3 +149,3067 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 968)
 
 
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 14:58:26 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 14:58:31 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 14:58:52 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 14:58:54 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 14:59:20 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 14:59:25 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:00:32 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:01:07 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:01:09 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:01:12 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:01:40 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:01:53 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:02:16 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:02:19 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:10:06 -0800
+
+LoadError - cannot load such file -- /home/adampangelinan/app-academy/w13/grocer-ease/backend/app/exceptions/brew_exception:
+  app/controllers/application_controller.rb:3:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:28:38 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:28:48 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:31:14 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:34:48 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/" for ::1 at 2023-02-27 15:34:50 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 289)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:34:55 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:35:32 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:36:31 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 15:37:06 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+  [1m[36mUser Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "mike"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gillian@bayer.biz"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "gillian@bayer.biz"], ["username", "mike"], ["password_digest", "[FILTERED]"], ["session_token", "[FILTERED]"], ["created_at", "2023-02-27 23:38:37.893124"], ["updated_at", "2023-02-27 23:38:37.893124"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "mike"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gillian@bayer.biz"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "mike"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gillian@bayer.biz"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 2]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 3]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 4]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 5]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 6]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 7]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 8]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 9]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 10]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 11]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 12]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "usr"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "usr@email.io"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "usr@email.io"], ["username", "usr"], ["password_digest", "[FILTERED]"], ["session_token", "[FILTERED]"], ["created_at", "2023-02-28 00:06:51.640948"], ["updated_at", "2023-02-28 00:06:51.640948"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "usr@email.com"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "usr@email.io"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "usr"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "usr@email.io"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "usr@email.com"], ["LIMIT", 1]]
+Started GET "/" for ::1 at 2023-02-27 16:08:58 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 474)
+Completed 200 OK in 7ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 3329)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 16:08:59 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "usr@email.com"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (1.0ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 13]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "usr"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "usr@email.io"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "usr@email.io"], ["username", "usr"], ["password_digest", "[FILTERED]"], ["session_token", "[FILTERED]"], ["created_at", "2023-02-28 00:33:56.190073"], ["updated_at", "2023-02-28 00:33:56.190073"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "usr@email.com"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "usr@email.io"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "usr"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "usr@email.io"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["username", "usr"], ["id", 14], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["email", "usr@email.io"], ["id", 14], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["session_token", "[FILTERED]"], ["id", 14], ["LIMIT", 1]]
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "[FILTERED]"], ["updated_at", "2023-02-28 00:35:41.868446"], ["id", 14]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/session" for 127.0.0.1 at 2023-02-27 16:36:30 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+  app/controllers/api/sessions_controller.rb:1:in `<main>'
+
+Started GET "/" for ::1 at 2023-02-27 16:36:32 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 283)
+Completed 200 OK in 2ms (Views: 1.6ms | Allocations: 962)
+
+
+Started GET "/" for ::1 at 2023-02-27 16:36:33 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 16)
+Completed 200 OK in 1ms (Views: 0.7ms | Allocations: 250)
+
+
+Started GET "/" for ::1 at 2023-02-27 16:40:02 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 218)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 16:40:07 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started GET "/" for ::1 at 2023-02-27 16:41:32 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 294)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 16:41:41 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started POST "/api/test" for ::1 at 2023-02-27 16:42:59 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started POST "/api/test" for ::1 at 2023-02-27 16:43:12 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started GET "/" for ::1 at 2023-02-27 16:43:13 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 287)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 16:43:14 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started GET "/" for ::1 at 2023-02-27 16:44:21 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 291)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 16:44:23 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started GET "/" for ::1 at 2023-02-27 16:45:34 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 1ms (Views: 0.8ms | Allocations: 294)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 16:45:35 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started GET "/" for ::1 at 2023-02-27 16:46:35 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 286)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 16:46:39 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started GET "/" for ::1 at 2023-02-27 16:46:56 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 22)
+Completed 200 OK in 2ms (Views: 1.0ms | Allocations: 290)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 16:46:58 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started GET "/login" for ::1 at 2023-02-27 16:47:15 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+Started POST "/api/test" for ::1 at 2023-02-27 16:47:47 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started GET "/" for ::1 at 2023-02-27 17:14:55 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 263)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:14:58 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started GET "/" for 127.0.0.1 at 2023-02-27 17:20:38 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 474)
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3329)
+
+
+Started POST "/api/test" for 127.0.0.1 at 2023-02-27 17:20:40 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started GET "/" for ::1 at 2023-02-27 17:22:38 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 281)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 970)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:22:39 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4042)
+
+
+
+ActionView::MissingTemplate - Missing template api/errors/internal_server_error with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip, :turbo_stream], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+Searched in:
+  * "/home/adampangelinan/app-academy/w13/grocer-ease/backend/app/views"
+  * "/home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4.2/app/views"
+  * "/home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4.2/app/views"
+Did you mean?  api/sessions/create
+               api/users/show
+               api/sessions/show
+               api/sessions/destroy
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new:
+  app/controllers/application_controller.rb:66:in `unhandled_error'
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:22:52 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1299)
+
+
+Started GET "/" for ::1 at 2023-02-27 17:24:22 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:24:24 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1232)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:30:00 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 5ms (Views: 1.6ms | Allocations: 1073)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5660728102967058660)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to EditUsers (20230228013213)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(5660728102967058660)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5660728102967058660)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to EditUsers (20230228013213)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (12.3ms)[0m  [1m[35mALTER TABLE "users" DROP COLUMN "username"[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230228013213"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(5660728102967058660)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/api/test" for ::1 at 2023-02-27 17:33:58 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1232)
+
+
+Started GET "/" for ::1 at 2023-02-27 17:34:17 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:34:18 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 1156)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-27 17:34:48 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 297)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:34:50 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 1094)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-27 17:35:01 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.4ms | Allocations: 474)
+Completed 200 OK in 13ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 3329)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:35:02 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 23ms (ActiveRecord: 0.0ms | Allocations: 1257)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:38:22 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 1004)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:39:42 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 1094)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-27 17:41:54 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 283)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 971)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:41:56 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 1097)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:43:04 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 1001)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-27 17:43:05 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 288)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:43:06 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 941)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:45:14 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 953)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-27 17:45:15 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 23)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 294)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:45:16 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 941)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-27 17:45:19 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 221)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:45:20 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 941)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-27 17:45:35 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 474)
+Completed 200 OK in 7ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3329)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:45:36 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 5ms (ActiveRecord: 0.0ms | Allocations: 1163)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-27 17:47:31 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.8ms | Allocations: 281)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 970)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:47:32 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 953)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-27 17:47:44 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | Allocations: 474)
+Completed 200 OK in 8ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 3329)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:47:45 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 11ms (ActiveRecord: 0.0ms | Allocations: 1163)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-27 17:52:47 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.7ms | Allocations: 281)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 970)
+
+
+Started POST "/api/test?login" for ::1 at 2023-02-27 17:53:04 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 3ms (ActiveRecord: 0.0ms | Allocations: 953)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started POST "/api/test?login" for ::1 at 2023-02-27 17:53:54 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 945)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:56:23 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 953)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-27 17:58:24 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 23)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:58:27 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 956)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-27 17:58:42 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 474)
+Completed 200 OK in 8ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3329)
+
+
+Started POST "/api/test" for ::1 at 2023-02-27 17:58:44 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 9ms (ActiveRecord: 0.0ms | Allocations: 1163)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:05:40 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:21:in `current_user'
+Completed 401 Unauthorized in 54ms (Views: 1.0ms | ActiveRecord: 16.8ms | Allocations: 7518)
+
+
+Started GET "/" for ::1 at 2023-02-28 08:05:40 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.0ms | Allocations: 283)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 952)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:05:48 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:21:in `current_user'
+Completed 401 Unauthorized in 6ms (Views: 0.6ms | ActiveRecord: 0.6ms | Allocations: 917)
+
+
+Started GET "/" for ::1 at 2023-02-28 08:06:48 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 15)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 231)
+
+
+Started POST "/api/test" for ::1 at 2023-02-28 08:06:50 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms | Allocations: 953)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/api/session" for ::1 at 2023-02-28 08:07:53 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:21:in `current_user'
+Completed 401 Unauthorized in 6ms (Views: 0.4ms | ActiveRecord: 0.8ms | Allocations: 767)
+
+
+Started GET "/" for ::1 at 2023-02-28 08:10:08 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 298)
+
+
+Started GET "/api/session" for ::1 at 2023-02-28 08:10:09 -0800
+Processing by Api::SessionsController#show as JSON
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 6531)
+
+
+
+NoMethodError - undefined method `attach_authenticity_token' for #<Api::SessionsController:0x0000000000e880>
+              target.send(@method_name, &block)
+                    ^^^^^:
+
+Started POST "/api/test" for ::1 at 2023-02-28 08:10:11 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 985)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-28 08:10:19 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.8ms | Allocations: 474)
+Completed 200 OK in 9ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 3329)
+
+
+Started POST "/api/test" for ::1 at 2023-02-28 08:10:21 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 18ms (ActiveRecord: 0.0ms | Allocations: 1187)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-28 08:10:35 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 281)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 965)
+
+
+Started POST "/api/test" for ::1 at 2023-02-28 08:10:37 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 960)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-28 08:12:29 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 23)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started POST "/api/test" for ::1 at 2023-02-28 08:12:31 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms | Allocations: 1025)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-28 08:12:33 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 23)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 289)
+
+
+Started POST "/api/test" for ::1 at 2023-02-28 08:12:38 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 1277)
+
+
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+
+Started GET "/" for ::1 at 2023-02-28 08:14:02 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.2ms | Allocations: 469)
+Completed 200 OK in 9ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3288)
+
+
+Started POST "/api/test" for ::1 at 2023-02-28 08:14:03 -0800
+
+NameError - uninitialized constant ApplicationController::BrewException
+    rescue_from BrewException, with: :handle_brew_exception
+                ^^^^^^^^^^^^^:
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<main>'
+
+Started GET "/" for ::1 at 2023-02-28 08:16:06 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 278)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 965)
+
+
+Started POST "/api/test" for ::1 at 2023-02-28 08:16:08 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3950)
+
+
+
+ActionView::MissingTemplate - Missing template api/errors/internal_server_error with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip, :turbo_stream], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+Searched in:
+  * "/home/adampangelinan/app-academy/w13/grocer-ease/backend/app/views"
+  * "/home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4.2/app/views"
+  * "/home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4.2/app/views"
+Did you mean?  api/sessions/create
+               api/users/show
+               api/sessions/show
+               api/sessions/destroy
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new:
+  app/controllers/application_controller.rb:62:in `unhandled_error'
+
+Started GET "/" for ::1 at 2023-02-28 08:17:29 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | Allocations: 474)
+Completed 200 OK in 7ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 3329)
+
+
+Started POST "/api/test" for ::1 at 2023-02-28 08:17:31 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 0.0ms | Allocations: 4134)
+
+
+
+ActionView::MissingTemplate - Missing template api/errors/internal_server_error with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip, :turbo_stream], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+Searched in:
+  * "/home/adampangelinan/app-academy/w13/grocer-ease/backend/app/views"
+  * "/home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4.2/app/views"
+  * "/home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4.2/app/views"
+Did you mean?  api/sessions/create
+               api/users/show
+               api/sessions/show
+               api/sessions/destroy
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new:
+  app/controllers/application_controller.rb:60:in `unhandled_error'
+
+Started GET "/" for ::1 at 2023-02-28 08:25:07 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | Allocations: 281)
+Completed 200 OK in 4ms (Views: 2.9ms | Allocations: 960)
+
+
+Started POST "/api/test" for ::1 at 2023-02-28 08:25:08 -0800
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.7ms | Allocations: 239)
+
+ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
+	
+
+Completed 500 Internal Server Error in 7ms (Views: 4.5ms | Allocations: 2636)
+
+
+Started GET "/api/session" for ::1 at 2023-02-28 08:25:37 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 32ms (Views: 0.6ms | ActiveRecord: 11.9ms | Allocations: 7624)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:26:32 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 7ms (Views: 0.3ms | ActiveRecord: 1.7ms | Allocations: 2759)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:26:34 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 7ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 813)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:35:32 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 14ms (Views: 0.2ms | ActiveRecord: 6.4ms | Allocations: 3635)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:35:40 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 810)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:35:51 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 7ms (Views: 0.9ms | ActiveRecord: 0.7ms | Allocations: 798)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:37:09 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 798)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:37:12 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 798)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 08:39:02 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.4ms | Allocations: 133)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 5ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2108)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 08:39:23 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.3ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 1696)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 08:43:05 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.3ms | Allocations: 92)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 2ms (Views: 1.0ms | Allocations: 1727)
+
+
+Started GET "/api/session?current_url=http%3A%2F%2Flocalhost%3A3000%2F" for 127.0.0.1 at 2023-02-28 08:43:58 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"current_url"=>"http://localhost:3000/"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 19ms (Views: 0.3ms | ActiveRecord: 8.7ms | Allocations: 3771)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:44:01 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 7ms (Views: 0.4ms | ActiveRecord: 0.8ms | Allocations: 798)
+
+
+Started GET "/api/session?current_url=http%3A%2F%2Flocalhost%3A3000%2F" for 127.0.0.1 at 2023-02-28 08:44:03 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"current_url"=>"http://localhost:3000/"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 798)
+
+
+Started GET "/api/session?current_url=http%3A%2F%2Flocalhost%3A3000%2F" for 127.0.0.1 at 2023-02-28 08:44:09 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"current_url"=>"http://localhost:3000/"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 6ms (Views: 0.5ms | ActiveRecord: 0.8ms | Allocations: 811)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 08:44:11 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.5ms | Allocations: 92)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 1730)
+
+
+Started GET "/api/session?current_url=http%3A%2F%2Flocalhost%3A3000%2F" for 127.0.0.1 at 2023-02-28 08:46:14 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"current_url"=>"http://localhost:3000/"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 18ms (Views: 0.5ms | ActiveRecord: 4.7ms | Allocations: 2823)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 08:46:15 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.3ms | Allocations: 133)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2043)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 08:47:21 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.4ms | Allocations: 133)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2152)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:48:04 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 10ms (Views: 0.4ms | ActiveRecord: 1.9ms | Allocations: 2665)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:48:08 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 7ms (Views: 1.0ms | ActiveRecord: 0.7ms | Allocations: 813)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 08:48:09 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.4ms | Allocations: 107)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 1785)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:49:53 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 15ms (Views: 0.6ms | ActiveRecord: 2.9ms | Allocations: 2736)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 08:49:55 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.4ms | Allocations: 134)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 5ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2045)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 08:51:01 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 954)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 08:51:04 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.3ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1743)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 09:12:08 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.2ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 3ms (Views: 1.1ms | Allocations: 1725)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 09:16:04 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.2ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 2ms (Views: 0.9ms | Allocations: 1725)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 09:16:14 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.2ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 3ms (Views: 1.3ms | Allocations: 1725)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 09:22:34 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.3ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 3ms (Views: 1.1ms | Allocations: 1725)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 09:22:36 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.2ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 3ms (Views: 1.0ms | Allocations: 1725)
+
+
+Started POST "/api/test" for 127.0.0.1 at 2023-02-28 09:33:34 -0800
+Processing by ApplicationController#test as */*
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.3ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 2ms (Views: 0.8ms | Allocations: 1725)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 09:33:36 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.3ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 3ms (Views: 1.2ms | Allocations: 1725)
+
+
+Started POST "/api/test?login" for 127.0.0.1 at 2023-02-28 09:37:57 -0800
+Processing by ApplicationController#test as */*
+  Parameters: {"login"=>nil, "application"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.2ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 2ms (Views: 0.8ms | Allocations: 1725)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2023-02-28 10:10:35 -0800
+Processing by Api::SessionsController#destroy as JSON
+  Parameters: {"session"=>{}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.2ms | Allocations: 133)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 3ms (Views: 1.5ms | Allocations: 2059)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 12:28:27 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 16ms (Views: 0.3ms | ActiveRecord: 6.4ms | Allocations: 5425)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 12:28:27 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 814)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 12:29:09 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 8ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 802)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 12:29:09 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 12:29:10 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 12:29:10 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 12:29:12 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 12:29:12 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 12:29:19 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 12:29:19 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 15:46:57 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 12ms (Views: 0.3ms | ActiveRecord: 4.5ms | Allocations: 3525)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 15:46:57 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/" for ::1 at 2023-02-28 15:58:31 -0800
+Processing by Rails::WelcomeController#index as */*
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 22)
+Completed 200 OK in 1ms (Views: 0.8ms | Allocations: 270)
+
+
+Started GET "/" for ::1 at 2023-02-28 15:58:40 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 474)
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 3329)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 15:58:45 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 49ms (Views: 0.6ms | ActiveRecord: 2.3ms | Allocations: 4818)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 15:58:45 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 835)
+
+
+Started GET "/" for ::1 at 2023-02-28 16:04:25 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 278)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 942)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:04:27 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 956)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:04:27 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 817)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:08:06 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:08:06 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 810)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:08:12 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:08:12 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:08:14 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:08:14 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 799)
+
+
+Started GET "/" for ::1 at 2023-02-28 16:08:17 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 231)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:19:43 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 16ms (Views: 0.3ms | ActiveRecord: 6.8ms | Allocations: 3691)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:19:43 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 799)
+
+
+Started GET "/" for ::1 at 2023-02-28 16:25:19 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 16)
+Completed 200 OK in 1ms (Views: 0.7ms | Allocations: 220)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:25:20 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 13ms (Views: 0.2ms | ActiveRecord: 4.6ms | Allocations: 3526)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:25:22 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:25:43 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:25:46 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:26:53 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/" for ::1 at 2023-02-28 16:26:56 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 221)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:27:01 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/" for ::1 at 2023-02-28 16:27:02 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 221)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:27:09 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/" for ::1 at 2023-02-28 16:27:11 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 221)
+
+
+Started GET "/" for ::1 at 2023-02-28 16:27:12 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 221)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:32:58 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 14ms (Views: 0.3ms | ActiveRecord: 6.0ms | Allocations: 3526)
+
+
+Started GET "/" for ::1 at 2023-02-28 16:33:01 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.0ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 221)
+
+
+Started GET "/" for ::1 at 2023-02-28 16:33:03 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 221)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:33:07 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:33:20 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 10ms (Views: 0.3ms | ActiveRecord: 2.1ms | Allocations: 5867)
+
+
+Started GET "/" for ::1 at 2023-02-28 16:33:20 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.2ms | Allocations: 471)
+Completed 200 OK in 19ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 2296)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:34:33 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 958)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:35:03 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 817)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:35:56 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 811)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:36:40 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:36:42 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.8ms | Allocations: 816)
+
+
+Started GET "/" for ::1 at 2023-02-28 16:36:44 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 281)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 941)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:37:02 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 955)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:41:06 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:41:41 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:41:46 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:43:06 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 16:43:10 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:02:11 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 15ms (Views: 0.2ms | ActiveRecord: 6.2ms | Allocations: 3710)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:02:14 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 6ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:09:16 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 19ms (Views: 0.3ms | ActiveRecord: 8.7ms | Allocations: 3525)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:09:51 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:09:56 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:10:22 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:10:47 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:14:31 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:14:49 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:17:12 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:17:14 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:17:35 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:17:43 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:17:45 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:19:25 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:19:29 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:21:48 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:23:06 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 6ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:24:12 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:24:29 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:25:18 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:25:19 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 6ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-02-28 17:25:26 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.5ms | Allocations: 239)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2724)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:31:10 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 26ms (Views: 0.5ms | ActiveRecord: 9.7ms | Allocations: 5384)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:36:14 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 11ms (Views: 0.3ms | ActiveRecord: 0.9ms | Allocations: 815)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:36:18 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 9ms (Views: 2.2ms | ActiveRecord: 0.6ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:36:29 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 6ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:36:55 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-02-28 17:36:56 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.3ms | Allocations: 133)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 5ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2116)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-02-28 17:37:07 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.1ms | Allocations: 92)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1805)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:38:18 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 6ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 928)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-02-28 17:38:20 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.2ms | Allocations: 92)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1762)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-02-28 17:38:27 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.2ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1759)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:41:14 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:48:21 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 16ms (Views: 0.2ms | ActiveRecord: 5.9ms | Allocations: 3686)
+
+
+Started GET "/" for ::1 at 2023-02-28 17:50:36 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 20)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 234)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:50:37 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-02-28 17:50:56 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.4ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 1759)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:53:35 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 6ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 799)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-02-28 17:53:38 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.7ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:5000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1759)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:54:17 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 19ms (Views: 0.4ms | ActiveRecord: 3.4ms | Allocations: 5867)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-02-28 17:54:19 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.7ms | Allocations: 375)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 38ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 3855)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:55:45 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 12ms (Views: 0.5ms | ActiveRecord: 2.3ms | Allocations: 5867)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:55:54 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 24ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 1001)
+
+
+Started GET "/" for ::1 at 2023-02-28 17:56:03 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 471)
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2291)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-02-28 17:56:09 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.4ms | Allocations: 239)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2751)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:57:45 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms | Allocations: 950)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:57:47 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms | Allocations: 817)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:57:49 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 9ms (Views: 0.8ms | ActiveRecord: 0.6ms | Allocations: 807)
+
+
+Started GET "/" for ::1 at 2023-02-28 17:57:50 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 277)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 882)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-02-28 17:57:54 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.1ms | Allocations: 106)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1819)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 17:58:08 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 933)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:03:47 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 16ms (Views: 0.2ms | ActiveRecord: 7.5ms | Allocations: 3691)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-02-28 20:03:59 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.3ms | Allocations: 91)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1759)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:04:08 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:04:11 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 817)
+
+
+Started GET "/" for ::1 at 2023-02-28 20:06:23 -0800
+Processing by Rails::WelcomeController#index as */*
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 238)
+
+
+Started GET "/" for ::1 at 2023-02-28 20:07:37 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 221)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:07:38 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 6ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 811)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:07:44 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/" for ::1 at 2023-02-28 20:07:45 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 16)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 223)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:07:46 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:07:54 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:07:55 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:07:57 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:07:58 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:01 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:05 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:06 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:07 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:08 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:09 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:14 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:15 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 6ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:16 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:18 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:22 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:23 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:08:24 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:37:16 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 20ms (Views: 0.3ms | ActiveRecord: 8.8ms | Allocations: 3525)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:37:25 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (4.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 14ms (Views: 0.5ms | ActiveRecord: 4.6ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:37:27 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:37:35 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 800)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:38:31 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 800)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:38:34 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:38:36 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:38:38 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:39:02 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:39:14 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-02-28 20:39:16 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 08:37:23 -0800
+
+ActiveRecord::ConnectionNotEstablished - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?:
+
+Started GET "/" for ::1 at 2023-03-01 08:37:39 -0800
+
+ActiveRecord::ConnectionNotEstablished - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?:
+
+Started POST "/__better_errors/66328c36d7883a55/variables" for ::1 at 2023-03-01 08:37:39 -0800
+Started GET "/" for ::1 at 2023-03-01 08:38:08 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 474)
+Completed 200 OK in 8ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3329)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 08:38:09 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 40ms (Views: 0.2ms | ActiveRecord: 3.2ms | Allocations: 4831)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-03-01 08:41:05 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.4ms | Allocations: 240)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2752)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 08:44:33 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 10ms (Views: 0.3ms | ActiveRecord: 1.6ms | Allocations: 5867)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-03-01 08:44:36 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.7ms | Allocations: 375)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 26ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 3855)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-03-01 08:45:46 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.1ms | Allocations: 92)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1832)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 08:45:57 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 9ms (Views: 0.3ms | ActiveRecord: 1.7ms | Allocations: 5867)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-03-01 08:46:03 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.7ms | Allocations: 375)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 25ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 3855)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 08:52:24 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 9ms (Views: 0.3ms | ActiveRecord: 1.7ms | Allocations: 5867)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-03-01 08:52:40 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.7ms | Allocations: 375)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 22ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 3855)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-03-01 08:55:21 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.1ms | Allocations: 92)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1832)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 08:57:02 -0800
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 944)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-03-01 08:57:04 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.1ms | Allocations: 92)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1761)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 08:57:22 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::SessionsController#show as JSON
+  Parameters: {"session"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 14ms (Views: 0.6ms | ActiveRecord: 2.2ms | Allocations: 5873)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-03-01 08:57:27 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.8ms | Allocations: 375)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 32ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 3855)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2023-03-01 08:59:36 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"email"=>"new@user.io", "password"=>"[FILTERED]", "user"=>{"email"=>"new@user.io", "password"=>"[FILTERED]"}}
+HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000)
+  Rendering api/errors/internal_server_error.json.jbuilder
+  Rendered api/errors/internal_server_error.json.jbuilder (Duration: 0.1ms | Allocations: 92)
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (http://localhost:7000) didn't match request.base_url (http://localhost:3000):
+	
+
+Completed 500 Internal Server Error in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1831)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 09:10:03 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 29ms (Views: 0.3ms | ActiveRecord: 16.7ms | Allocations: 3815)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 09:14:40 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 7ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 806)
+
+
+Started GET "/" for ::1 at 2023-03-01 09:14:45 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/adampangelinan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 334)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 1172)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 09:14:46 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 8ms (Views: 0.4ms | ActiveRecord: 0.8ms | Allocations: 954)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 09:14:49 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 10ms (Views: 0.3ms | ActiveRecord: 1.7ms | Allocations: 798)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 09:14:52 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 11ms (Views: 0.4ms | ActiveRecord: 2.3ms | Allocations: 817)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 09:14:57 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 11ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 798)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 09:15:49 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 17ms (Views: 0.6ms | ActiveRecord: 0.6ms | Allocations: 798)
+
+
+Started GET "/api/session" for 127.0.0.1 at 2023-03-01 09:17:52 -0800
+Processing by Api::SessionsController#show as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:11:in `current_user'
+Filter chain halted as :require_logged_in rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 810)
+
+
