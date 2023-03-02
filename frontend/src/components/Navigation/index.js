@@ -16,8 +16,10 @@ function Navigation() {
   } else {
     sessionLinks = (
       <>
-        <LoginFormModal />
         <NavLink to="/signup">Sign Up</NavLink>
+        <br></br>
+        <br></br>
+        <LoginFormModal />
       </>
     );
   }
@@ -25,7 +27,9 @@ function Navigation() {
   return (
     <ul>
       <li>
-        <NavLink exact to="/">Home</NavLink>
+        <NavLink exact to="/"  >Home</NavLink>
+        <br></br>
+        <br></br>
         {sessionLinks}
       </li>
     </ul>

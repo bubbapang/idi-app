@@ -1,5 +1,4 @@
 class Api::UsersController < ApplicationController
-
   wrap_parameters include: User.attribute_names + ['password']
 
   def create
@@ -7,15 +6,15 @@ class Api::UsersController < ApplicationController
 
     if @user.save
       login!(@user)
-      render json: @user
+      render :show
     else
-      render json: @user.errors.full_messages, status: :unprocessable_entity
+      render json: { errors: @user.errors.full_messages }, status: :unprocessable_entity
     end
   end
 
   private
 
   def user_params
-    params.require(:user).permit(:email, :username, :password)
+    params.require(:user).permit(:email, :password)
   end
 end

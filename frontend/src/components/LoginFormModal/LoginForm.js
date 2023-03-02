@@ -35,7 +35,7 @@ function LoginForm() {
           {errors.map(error => <li key={error}>{error}</li>)}
         </ul>
         <label>
-          Username or Email
+          Email
           <input
             type="text"
             value={credential}
@@ -43,6 +43,7 @@ function LoginForm() {
             required
           />
         </label>
+        <br></br>
         <label>
           Password
           <input
@@ -52,6 +53,7 @@ function LoginForm() {
             required
           />
         </label>
+        <br></br>
         <button type="submit">Log In</button>
       </form>
     </>
