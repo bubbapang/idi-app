@@ -3,7 +3,7 @@
 # exit on error
 set -o errexit
 
-npm run build
+npm install && npm run build
 bundle install
 rails db:migrate
-# rails db:seed #if needed
+rails db:seed #if needed
