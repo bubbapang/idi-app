@@ -1,0 +1,5 @@
+/* make the images a certain size */
+img {
+  width: 200px;
+  height: 200px;
+}
