@@ -10,6 +10,7 @@ export default function ItemShow ( { item } ) {
             <h4>{name}</h4>
             <p>{price}</p>
             <img src={image} alt={name} />
+            <p>test</p>
         </>
     )
 }
