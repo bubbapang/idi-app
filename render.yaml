@@ -1,6 +1,6 @@
 databases:
   - name: grocerEase
-    user: grocerEase
+    user: bubbapang
     plan: free
     region: oregon
 
