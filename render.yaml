@@ -9,7 +9,7 @@ services:
     name: grocerEase
     plan: free
     region: oregon
-    branch: main
+    branch: master
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "rails s"
