@@ -10,10 +10,11 @@ class User < ApplicationRecord
   
   before_validation :ensure_session_token
 
-  def self.find_by_email_and_password(email, password)
-    user = User.find_by(email: email)
+  def self.find_by_credentials(credential, password)
+    field = credential =~ URI::MailTo::EMAIL_REGEXP ? :email : nil
+    user = User.find_by(field => credential)
     user&.authenticate(password)
-  end  
+  end
 
   def reset_session_token!
     self.update!(session_token: generate_unique_session_token)

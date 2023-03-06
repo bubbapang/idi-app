@@ -1,6 +1,6 @@
-
 import React from 'react';
-import ItemShow from '../ItemShow/ItemShow';
+import ItemShow from './ItemShow';
+import './ItemIndex.css';
 
 export default function ItemIndex () {
     const items = [
