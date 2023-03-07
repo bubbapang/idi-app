@@ -1,39 +1,29 @@
-import React from "react";
-// import { useState } from "react";
-// import Cart from "../Cart";
-import "./Home.css";
-import StoreIndex from "../Stores";
-import Navigation from "../Navigation";
+import React from 'react';
+import Navigation from '../Navigation';
+import StoreIndex from '../Stores/index';
+import ItemIndex from '../Items/index';
+import './Home.css';
+import { useParams, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { getItems } from '../../store/item';
 
 export default function Home() {
-    // const [showCart, setShowCart] = useState(false);
+    const { storeId } = useParams();
+    const location = useLocation();
+    const dispatch = useDispatch();
 
-    return(
+    useEffect(() => {
+        dispatch(getItems(storeId));
+    }, [dispatch, storeId]);
+
+    // check if the current URL matches "/store/:storeId"
+    const isStorePage = location.pathname.startsWith('/store');
+
+    return (
         <>
-            {/* this is the nav bar at the top */}
-            <nav>
-                <h1 id="website-title">grocerease</h1>
-                {/* <button className="checkout-button" onClick={() => setShowCart(true)}>
-                    <i className="fas fa-shopping-bag" />
-                    Checkout
-                </button> */}
-                <Navigation />
-            </nav>
-
-            {/* this is the main content of the page */}
-            <div className="main-content">
-                <StoreIndex />
-            </div>
-
-            {/* this is the sidebar that shows the cart */}
-            {/* <div className="sidebar" style={showCart ? { transform: 'translateX(-100%)' } : {}}>
-                <div className="sidebar-header">
-                    <button className="arrow-button" onClick={() => setShowCart(false)}>
-                        <i className="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-                <Cart />
-            </div> */}
+        <Navigation />
+        {isStorePage ? <ItemIndex /> : <StoreIndex />}
         </>
-    )
+    );
 }

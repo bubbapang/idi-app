@@ -1,5 +1,15 @@
-/* make the images a certain size */
-img {
-  width: 300px;
-  height: 300px;
+.item-show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin-top: 200px;
+
+}
+
+.item-show img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }

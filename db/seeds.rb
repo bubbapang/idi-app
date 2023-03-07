@@ -1,37 +1,39 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
-
-# creating users
-
-puts "Destroying tables..."
-# Unnecessary if using `rails db:seed:replant`
+# users
+puts "Destroying users..."
 User.destroy_all
-
 puts "Resetting primary keys..."
-# For easy testing, so that after seeding, the first `User` has `id` of 1
 ApplicationRecord.connection.reset_pk_sequence!('users')
-
 puts "Creating users..."
-# Create one user with an easy to remember email, and password:
-User.create!(
-  email: 'demo@user.io', 
-  password: 'password'
-)
+User.create!(email: 'demo@user.io', password: 'password')
+puts "Creating 10 users..."
+10.times do User.create!({email: Faker::Internet.unique.email, password: 'password'}) end
 
-# More users
-10.times do 
-  User.create!({
-    email: Faker::Internet.unique.email,
-    password: 'password'
-  }) 
-end
+# stores
+puts "Destroying stores..."
+Store.destroy_all
+puts "Resetting primary keys..."
+ApplicationRecord.connection.reset_pk_sequence!('stores')
+puts "Creating stores..."
+Store.create!(name: 'Payless Supermarkets')
+Store.create!(name: 'Trader Joe\'s')
+Store.create!(name: 'Whole Foods')
+Store.create!(name: 'Safeway')
+Store.create!(name: 'Costco')
+Store.create!(name: 'Target')
 
 # creating items
+puts "Destroying items..."
+Item.destroy_all
+puts "Resetting primary keys..."
+ApplicationRecord.connection.reset_pk_sequence!('items')
+puts "Creating items..."
+Item.create!({name: 'Watermelon', price: 3.00})
+Item.create!({name: 'Green Onion', price: 2.00})
+Item.create!({name: 'Dragon fruit', price: 7.00})
+
+
+
+
 
 # require "open-uri"
 
@@ -76,20 +78,3 @@ end
 #   )
 # end
 
-
-
-
-
-
-# dont use application transaction when seeding with AWS
-# dont use application transaction when seeding with AWS
-# dont use application transaction when seeding with AWS
-# dont use application transaction when seeding with AWS
-# dont use application transaction when seeding with AWS
-# dont use application transaction when seeding with AWS
-# dont use application transaction when seeding with AWS
-# dont use application transaction when seeding with AWS
-# dont use application transaction when seeding with AWS
-# dont use application transaction when seeding with AWS
-# dont use application transaction when seeding with AWS
-# dont use application transaction when seeding with AWS
