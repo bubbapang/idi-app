@@ -3,4 +3,5 @@ class Item < ApplicationRecord
     validates :price, presence: true
 
     has_many :store_items
+    has_many :cart_items
 end

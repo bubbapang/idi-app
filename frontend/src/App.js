@@ -1,13 +1,19 @@
 import { Route, Switch } from "react-router-dom";
-import Home from "./components/Home";
+import Navigation from "./components/Navigation";
+import StoreIndex from "./components/Stores";
+import ItemIndex from "./components/Items";
 
 function App() {
 
   return (
     <>
+      <Navigation />
       <Switch>
         <Route path="/">
-          <Home />
+          <StoreIndex />
+        </Route>
+        <Route path="/store/:storeId">
+          <ItemIndex />
         </Route>
       </Switch>
     </>

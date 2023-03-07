@@ -1,38 +1,31 @@
 import React from 'react';
 import ItemShow from './ItemShow';
+import { getStoreItemsThunk } from '../../store/storeItem';
+import { useDispatch, useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import './ItemIndex.css';
 
 export default function ItemIndex() {
-    const items = [
-        {
-        id: 1,
-        name: 'Watermelon',
-        price: '$3.99',
-        image: 'https://grocer-ease-seeds.s3.us-west-1.amazonaws.com/item_1.jpg',
-        },
-        {
-        id: 2,
-        name: 'Green Onion',
-        price: '$1.99',
-        image: 'https://grocer-ease-seeds.s3.us-west-1.amazonaws.com/item_2.jpg',
-        },
-        {
-        id: 3,
-        name: 'Dragon Fruit',
-        price: '$4.99',
-        image: 'https://grocer-ease-seeds.s3.us-west-1.amazonaws.com/item_3.jpg',
-        },
-    ];
+    const dispatch = useDispatch();
+    const { storeId } = useParams();
+    console.log('storeId', storeId)
+    // get all items from the store
+    const items = useSelector(state => Object.values(state.storeItem).filter(item => item.storeId === +storeId));
+    console.log('items', items)
 
-    if (!items) {
-        return null; // or render a loading indicator
-    }
+    // upon mounting, fetch all items
+    useEffect(() => {
+        dispatch(getStoreItemsThunk(storeId));
+    }, [dispatch, storeId]);
+
+    if (!items || items.length === 0) return null;
 
     return (
         <div className="item-index">
-        {items.map((item, idx) => (
-            <ItemShow key={idx} item={item} />
-        ))}
+            {items.map((item, idx) => (
+                <ItemShow key={idx} item={item} />
+            ))}
         </div>
     );
 }

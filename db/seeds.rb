@@ -1,3 +1,13 @@
+# creating store items
+puts "Destroying store items..."
+StoreItem.destroy_all
+puts "Resetting primary keys..."
+ApplicationRecord.connection.reset_pk_sequence!('store_items')
+puts "Creating store items..."
+StoreItem.create!({store_id: 1, item_id: 1})
+StoreItem.create!({store_id: 1, item_id: 2})
+StoreItem.create!({store_id: 1, item_id: 3})
+
 # users
 puts "Destroying users..."
 User.destroy_all
@@ -30,6 +40,8 @@ puts "Creating items..."
 Item.create!({name: 'Watermelon', price: 3.00})
 Item.create!({name: 'Green Onion', price: 2.00})
 Item.create!({name: 'Dragon fruit', price: 7.00})
+
+
 
 
 
