@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './StoreShow.css';
 
 export default function StoreShow({ store }) {
-    const { id, name, image } = store;
+    const { id, name, url } = store;
 
     const randomTimes = [
         '8:45 a.m.',
@@ -21,7 +21,7 @@ export default function StoreShow({ store }) {
         <h4>{name}</h4>
         <h5>Delivery by {randomTime}</h5>
         <Link to={`/store/${id}`}>
-            <img src={image} alt={name} />
+            <img src={url} alt={name} />
         </Link>
         </div>
     );

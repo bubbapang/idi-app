@@ -18,7 +18,6 @@ export const getStoreItemsThunk = (storeId) => async (dispatch) => {
     const res = await fetch(`/api/store_items?storeId=${storeId}`);
     if (res.ok) {
         const storeItems = await res.json();
-        console.log('storeItems', storeItems)
         // changes the state of storeItems to an object with the storeItem id as the key
         dispatch(getStoreItems(storeItems));
     }
@@ -28,7 +27,6 @@ export const getStoreItemThunk = (id) => async (dispatch) => {
     const res = await fetch(`/api/store_items/${id}`);
     if (res.ok) {
         const storeItem = await res.json();
-        console.log('storeItem', storeItem)
         dispatch(getStoreItem(storeItem));
     }
 }

@@ -1,16 +1,18 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import session from './session'
-import store from './store';
-import storeItem from './storeItem';
-import cart from './cart';
+import items from './item';
+import stores from './store';
+import storeItems from './storeItem';
+import cartItems from './cartItem';
 
 const rootReducer = combineReducers({
   // mini reducers
   session,
-  store,
-  storeItem,
-  cart,
+  stores,
+  items,
+  storeItems,
+  cartItems,
 });
 
 let enhancer;

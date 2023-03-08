@@ -9,11 +9,11 @@ function App() {
     <>
       <Navigation />
       <Switch>
-        <Route path="/">
-          <StoreIndex />
-        </Route>
         <Route path="/store/:storeId">
           <ItemIndex />
+        </Route>
+        <Route path="/">
+          <StoreIndex />
         </Route>
       </Switch>
     </>

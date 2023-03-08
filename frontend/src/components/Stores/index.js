@@ -7,8 +7,7 @@ import './StoreIndex.css';
 
 export default function StoreIndex () {
     const dispatch = useDispatch();
-    const stores = useSelector(state => Object.values(state.store));
-    console.log('stores', stores)
+    const stores = useSelector(state => Object.values(state.stores));
     
     // upon mounting, fetch all stores
     useEffect(() => {

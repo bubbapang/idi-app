@@ -1,6 +1,7 @@
 import React from 'react';
 import ItemShow from './ItemShow';
 import { getStoreItemsThunk } from '../../store/storeItem';
+import { getItemsThunk } from '../../store/item';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
@@ -9,21 +10,32 @@ import './ItemIndex.css';
 export default function ItemIndex() {
     const dispatch = useDispatch();
     const { storeId } = useParams();
-    console.log('storeId', storeId)
-    // get all items from the store
-    const items = useSelector(state => Object.values(state.storeItem).filter(item => item.storeId === +storeId));
-    console.log('items', items)
 
     // upon mounting, fetch all items
     useEffect(() => {
+        dispatch(getItemsThunk());
         dispatch(getStoreItemsThunk(storeId));
     }, [dispatch, storeId]);
 
-    if (!items || items.length === 0) return null;
+    // initializing items and storeItems
+    const items = useSelector(state => state.items);
+    console.log('items', items)
+    const storeItems = useSelector(state => Object.values(state.storeItems));
+    console.log('storeItems', storeItems)
+
+    // filtering storeItems to only include items from the current store
+    const filteredItems = [];
+    storeItems.forEach(storeItem => {
+        filteredItems.push(items[storeItem.itemId]);
+    });
+
+    if (!filteredItems || filteredItems.length === 0) return null;
+
+    console.log('filteredItems', filteredItems)
 
     return (
         <div className="item-index">
-            {items.map((item, idx) => (
+            {filteredItems.map((item, idx) => (
                 <ItemShow key={idx} item={item} />
             ))}
         </div>
