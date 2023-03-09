@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import ProfileButton from './ProfileButton';
+import Cart from '../Cart'
 import LoginFormModal from '../LoginModal';
 import SignupFormModal from '../SignupModal';
 import Searchbar from './Searchbar';
-import Cart from '../Cart';
 import './Navigation.css';
 
 function Navigation() {
@@ -17,7 +17,7 @@ function Navigation() {
       <>
         <ProfileButton user={sessionUser} />
         <button className="cart-button" onClick={() => setShowCart(!showCart)}>
-          <i className="fas fa-shopping-cart"></i>
+          <i className="fas fa-shopping-cart" alt="Shopping Cart"></i>
         </button>
       </>
     );
@@ -41,7 +41,7 @@ function Navigation() {
           {sessionLinks}
         </div>
       </nav>
-      <div className="sidebar" style={showCart ? { right: 0 } : {}}>
+      <div className="sidebar" style={{ right: showCart ? '0' : '-100%' }}>
         <div className="sidebar-header">
           <button className="arrow-button" onClick={() => setShowCart(false)}>
             <i className="fas fa-arrow-left"></i>

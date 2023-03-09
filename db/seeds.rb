@@ -10,6 +10,12 @@ StoreItem.create!({store_id: 1, item_id: 1})
 StoreItem.create!({store_id: 1, item_id: 2})
 StoreItem.create!({store_id: 1, item_id: 3})
 
+# destroying cart items
+puts "Destroying cart items..."
+CartItem.destroy_all
+puts "Resetting primary keys..."
+ApplicationRecord.connection.reset_pk_sequence!('cart_items')
+
 # users
 puts "Destroying users..."
 User.destroy_all

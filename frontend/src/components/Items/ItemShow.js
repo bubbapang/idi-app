@@ -7,7 +7,7 @@ export default function ItemShow({ item }) {
 
     return (
         <div className="item-show">
-            <AddToCartButton product={item} />
+            <AddToCartButton item={item} />
             <h4>{name}</h4>
             <p>{price}</p>
             <img src={url} alt={name} />

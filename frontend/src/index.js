@@ -34,11 +34,12 @@ const renderApplication = () => {
   createRoot(document.getElementById("root")).render(<Root />);
 }
 
-if (
-  sessionStorage.getItem("currentUser") === null ||
-  sessionStorage.getItem("X-CSRF-Token") === null 
-) {
-  store.dispatch(sessionActions.restoreSession()).then(renderApplication);
+// Conditionally render based on whether session has been restored
+const currentUser = sessionStorage.getItem("currentUser");
+const csrfToken = sessionStorage.getItem("X-CSRF-Token");
+if (!currentUser || !csrfToken) {
+  store.dispatch(sessionActions.restoreSession())
+    .then(renderApplication)
 } else {
   renderApplication();
 }

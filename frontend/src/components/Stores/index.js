@@ -1,26 +1,46 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import StoreShow from './StoreShow';
 import { getStoresThunk } from '../../store/store';
 import { useDispatch, useSelector } from 'react-redux';
-import { useEffect } from 'react';
 import './StoreIndex.css';
 
-export default function StoreIndex () {
-    const dispatch = useDispatch();
-    const stores = useSelector(state => Object.values(state.stores));
-    
-    // upon mounting, fetch all stores
-    useEffect(() => {
-        dispatch(getStoresThunk());
-    }, [dispatch]);
+export default function StoreIndex() {
+  const dispatch = useDispatch();
+  const stores = useSelector(state => Object.values(state.stores));
 
-    if (!stores) return null;
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-    return (
-        <>
-            <div className='store-index'>
-                {stores.map((store, idx) => <StoreShow key={idx} store={store} />)}
-            </div>
-        </>
-    )
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        await dispatch(getStoresThunk());
+        setIsLoading(false);
+      } catch (e) {
+        setError('An error occurred while fetching stores. Please try again later.');
+        setIsLoading(false);
+      }
+    }
+    fetchData();
+  }, [dispatch]);
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>{error}</div>;
+  }
+
+  if (!stores.length) {
+    return <div>No stores found.</div>;
+  }
+
+  return (
+    <div className="store-index">
+      {stores.map(store => (
+        <StoreShow key={store.id} store={store} />
+      ))}
+    </div>
+  );
 }
