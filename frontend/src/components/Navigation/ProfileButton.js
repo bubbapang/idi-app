@@ -1,27 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useDispatch } from 'react-redux';
 import * as sessionActions from '../../store/session';
 
 function ProfileButton({ user }) {
   const dispatch = useDispatch();
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
+
+  // console.log('showMenu', showMenu)
   
-  const openMenu = () => {
-    if (showMenu) return;
-    setShowMenu(true);
+  const toggleMenu = (e) => {
+    // stopping event things from happening
+    e.preventDefault();
+    e.stopPropagation();
+
+    // toggle the menu
+    setShowMenu(!showMenu)
   };
-  
-  useEffect(() => {
-    if (!showMenu) return;
-
-    const closeMenu = () => {
-      setShowMenu(false);
-    };
-
-    document.addEventListener('click', closeMenu);
-  
-    return () => document.removeEventListener("click", closeMenu);
-  }, [showMenu]);
 
   const logout = (e) => {
     e.preventDefault();
@@ -30,17 +24,19 @@ function ProfileButton({ user }) {
 
   return (
     <>
-      <button onClick={openMenu}>
-        <i className="fa-solid fa-user-circle" />
-      </button>
       {showMenu && (
         <ul className="profile-dropdown">
           <li>{user.email}</li>
           <li>
-            <button onClick={logout}>Log Out</button>
+            <button className="logout-button" onClick={logout}>
+              <i className="fas fa-sign-out-alt" alt="Sign Out"></i>
+            </button>
           </li>
         </ul>
       )}
+      <button className="profile-button" onClick={toggleMenu}>
+        <i className="fa-solid fa-user-circle" />
+      </button>
     </>
   );
 }

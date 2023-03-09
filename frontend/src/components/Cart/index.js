@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import CartItem from './CartItem';
 import { getItemsThunk } from '../../store/item';
 import { getCartItemsThunk } from '../../store/cartItem';
+import { deleteCartItemThunk } from '../../store/cartItem';
 import './Cart.css';
 
 export default function Cart() {
@@ -21,7 +22,7 @@ export default function Cart() {
     // console.log('cartItem', cartItem);
     const filteredItem = items[cartItem.itemId];
     // console.log('filteredItem', filteredItem);
-    return filteredItem;
+    return [filteredItem, cartItem];
   }) : [];
 
   // console.log('filteredItems', filteredItems)
@@ -33,6 +34,15 @@ export default function Cart() {
 
   const onSubmit = e => {
     e.preventDefault();
+
+    // delete all cart items
+    async function deleteCartItems() {
+      cartItemsArray.forEach(cartItem => {
+        dispatch(deleteCartItemThunk(cartItem.id));
+      });
+    }
+    deleteCartItems();
+
     const purchasedItems = cartItemsArray
       .map(cartItem => {
         const item = items[cartItem.itemId];
@@ -53,10 +63,10 @@ export default function Cart() {
       <div className="cart">
         <div className="cart-header">Cart</div>
         <ul className="cart-items">
-          {filteredItems.map((filteredItem, idx) => {
-            const cartItem = cartItems[idx + 1];
+          {filteredItems.map((combo, idx) => {
             // console.log('filteredItem', filteredItem);
             // console.log('cartItem', cartItem);
+            const [filteredItem, cartItem] = combo;
             return (
               <CartItem key={cartItem.id} item={filteredItem} cartItem={cartItem} />
             );

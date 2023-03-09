@@ -6,14 +6,14 @@ export default function CartItem({ item, cartItem }) {
   const [quantity, setQuantity] = useState(cartItem.quantity);
   const dispatch = useDispatch();
 
-  console.log('item', item)
-  console.log('cartItem', cartItem)
+  // console.log('item', item)
+  // console.log('cartItem', cartItem)
 
   useEffect(() => {
     setQuantity(cartItem.quantity);
   }, [cartItem.quantity]);
 
-  const handleQuantityChange = (e) => {
+  const handleQuantityChange = (e) => { // for the number box input
     const newQuantity = parseInt(e.target.value);
     setQuantity(newQuantity);
     dispatch(updateCartItemThunk(cartItem.id, newQuantity));
@@ -34,6 +34,10 @@ export default function CartItem({ item, cartItem }) {
   const handleRemoveItem = () => {
     dispatch(deleteCartItemThunk(cartItem.id));
   };
+
+  // const handleClearItems = () => {
+  //   // insert code here
+  // };
 
   return (
     <li className="cart-item">

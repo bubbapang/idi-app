@@ -19,7 +19,7 @@ export const addCartItem = (cartItem) => ({
 });
 
 export const updateCartItem = (cartItemId, quantity) => {
-    if (quantity < 1) { return deleteCartItem(cartItemId) }
+    if (quantity < 1) return;
     return {
         type: UPDATE_CART_ITEM,
         cartItemId,
@@ -60,6 +60,7 @@ export const addCartItemThunk = (cartItem) => async (dispatch) => {
 }
 
 export const updateCartItemThunk = (cartItemId, quantity) => async (dispatch) => {
+    if (quantity < 1) return;
     const res = await csrfFetch(`/api/cart_items/${cartItemId}`, {
         method: 'PUT',
         headers: {

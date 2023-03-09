@@ -14,7 +14,11 @@ function SignupForm() {
         e.preventDefault();
         if (password === confirmPassword) {
         setErrors([]);
-        return dispatch(sessionActions.signup({ credential, password }))
+        console.log('coming from signup form')
+        console.log('credential', credential)
+        console.log('password', password)
+        const user = [credential, password]
+        return dispatch(sessionActions.signup(user))
             .catch(async (res) => {
             const data = await res.json();
             if (data && data.errors) setErrors(data.errors);

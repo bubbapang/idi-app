@@ -2,7 +2,7 @@ class User < ApplicationRecord
   has_secure_password
   has_many :cart_items, dependent: :destroy
 
-  validates :email, 
+  validates :email, presence: true,
     uniqueness: true, 
     length: { in: 3..255 }, 
     format: { with: URI::MailTo::EMAIL_REGEXP }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import ProfileButton from './ProfileButton';
+import { Link } from 'react-router-dom';
 import Cart from '../Cart'
 import LoginFormModal from '../LoginModal';
 import SignupFormModal from '../SignupModal';
@@ -35,7 +36,7 @@ function Navigation() {
   return (
     <>
       <nav>
-        <h1>grocerease</h1>
+        <Link to='/' className='home-button'>GrocerEase</Link>
         <Searchbar id="searchbar"/>
         <div className="nav-links">
           {sessionLinks}
