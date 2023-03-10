@@ -14,7 +14,7 @@ export default function CartItem({ item, cartItem }) {
   }, [cartItem.quantity]);
 
   const handleQuantityChange = (e) => { // for the number box input
-    const newQuantity = parseInt(e.target.value);
+    const newQuantity = (e.target.value);
     setQuantity(newQuantity);
     dispatch(updateCartItemThunk(cartItem.id, newQuantity));
   };

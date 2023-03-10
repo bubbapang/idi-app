@@ -7,10 +7,12 @@ export default function ItemShow({ item }) {
 
     return (
         <div className="item-show">
-            <AddToCartButton item={item} />
-            <h4>{name}</h4>
-            <p>{price}</p>
-            <img src={url} alt={name} />
+            <div className='item-show-image-container'>
+                <AddToCartButton item={item} />
+                <img src={url} alt={name} />
+            </div>
+            <p className='item-price'>${price}</p>
+            <h4 className='item-name'>{name}</h4>
         </div>
     );
 }

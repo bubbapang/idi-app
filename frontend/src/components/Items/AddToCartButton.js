@@ -36,8 +36,8 @@ export default function AddToCartButton ({ item }) {
     
 
     return (
-        <button className={`add-to-cart-button ${clicked ? "clicked" : ""}`} onClick={handleClick}>
-            {clicked ? "Added to cart!" : "Add to cart"}
+        <button className="addtocart-button" onClick={handleClick}>
+            {clicked ? "Added!" : "Add"}
         </button>
     );
 };

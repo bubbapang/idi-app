@@ -1,0 +1,9 @@
+.addtocart-button {
+    background-color: rgb(14, 199, 14);
+    border-radius: 48px;
+    border: 0px;
+    height: 48px;
+    min-width: 82px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
