@@ -61,7 +61,7 @@ export default function Cart() {
   if (!cartItemsArray.length) {
     return (
       <div className="cart">
-        No items in the cart. Start selecting items to purchase.
+        Your personal cart is empty
       </div>
     );
   } else {
