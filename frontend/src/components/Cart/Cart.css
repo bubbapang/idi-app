@@ -1,6 +1,7 @@
 .cart {
   margin-top: 16px;
   padding: 0 8px;
+  /* width: 900px; */
 }
 
 .cart-item-button {
@@ -33,6 +34,13 @@
   align-self: flex-end;
   font-size: 18px;
   padding: 0 16px;
+  background-color: rgb(93, 187, 0);
+  width: 488px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 16px;
+  margin-bottom: 50px;
+
 }
 
 .cart form {
@@ -48,4 +56,9 @@ input[type="number"] {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
+}
+
+.cart-item-image img {
+  width: 100px;
+  height: 100px;
 }

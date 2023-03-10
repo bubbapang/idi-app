@@ -2,7 +2,10 @@
     display: flex; /* make the container a flex container */
     flex-wrap: wrap; /* allow the container to wrap its children to a new row */
     justify-content: center; /* center the children horizontally */
-    margin: 8rem;
+    margin-top: 150px;
+    margin-left: 25%;
+    width: 1000px;
+    height: 480px;
 }
 
 .store-container {

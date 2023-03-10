@@ -36,7 +36,7 @@ function Navigation() {
   return (
     <>
       <nav>
-        <Link to='/' className='home-button'>GrocerEase</Link>
+        <Link to='/' className='home-button'>grocerease</Link>
         <Searchbar id="searchbar"/>
         <div className="nav-links">
           {sessionLinks}

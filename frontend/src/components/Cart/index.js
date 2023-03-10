@@ -52,6 +52,12 @@ export default function Cart() {
     window.alert(`Purchased the following:\n${purchasedItems}`);
   };
 
+  // round to 2 decimal places
+  const totalCost = filteredItems.reduce((acc, combo) => {
+    const [filteredItem, cartItem] = combo;
+    return acc + (filteredItem.price * cartItem.quantity);
+  }, 0).toFixed(2);
+
   if (!cartItemsArray.length) {
     return (
       <div className="cart">
@@ -60,23 +66,25 @@ export default function Cart() {
     );
   } else {
     return (
-      <div className="cart">
-        <div className="cart-header">Cart</div>
-        <ul className="cart-items">
-          {filteredItems.map((combo, idx) => {
-            // console.log('filteredItem', filteredItem);
-            // console.log('cartItem', cartItem);
-            const [filteredItem, cartItem] = combo;
-            return (
-              <CartItem key={cartItem.id} item={filteredItem} cartItem={cartItem} />
-            );
-          })}
-        </ul>
-        <hr />
-        <form onSubmit={onSubmit}>
-          <button type="submit">Purchase</button>
-        </form>
-      </div>
+      <>
+        {/* <div className="cart-header">Cart</div> */}
+          <div className="cart">
+          <ul className="cart-items">
+            {filteredItems.map((combo, idx) => {
+              // console.log('filteredItem', filteredItem);
+              // console.log('cartItem', cartItem);
+              const [filteredItem, cartItem] = combo;
+              return (
+                <CartItem key={cartItem.id} item={filteredItem} cartItem={cartItem} />
+              );
+            })}
+          </ul>
+          <hr />
+          <form onSubmit={onSubmit}>
+            <button type="submit">Go To Checkout ${totalCost}</button>
+          </form>
+        </div>
+      </>
     );
   }
 }

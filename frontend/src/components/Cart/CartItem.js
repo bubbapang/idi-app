@@ -41,6 +41,7 @@ export default function CartItem({ item, cartItem }) {
 
   return (
     <li className="cart-item">
+      <div className="cart-item-image"> <img src={item.url} alt={item.name} /> </div>
       <div className="cart-item-header">{item.name}</div>
       <div className="cart-item-price">${item.price}</div>
       <div className="cart-item-menu">
