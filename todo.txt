@@ -1,0 +1,30 @@
+make an order item show component so i can render a show component for each order item and make it look nice in its own little box
+
+    get all info on order item show component
+
+    get the correct store from the order object, wherever the order item is being rendered, the relevant info should be
+        where do i get the name of the store? check the order object
+
+    get all the names of each item in its own little box
+
+get the images rendering using the item show modal
+
+get the # of items per order rendered, not # of orders
+
+
+
+
+
+
+
+
+###
+I need:
+    top
+        order placed
+        items
+        total
+    bottom
+        title of store
+        images of each item
+        add all items to cart button

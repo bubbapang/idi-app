@@ -1,0 +1,43 @@
+:root {
+	--primary-color: #1a1a1a;
+	--secondary-color: #fff;
+}
+
+/* the overall flexbox for all the order item LIs */
+.orders {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	margin-top: 10px;
+
+	width: 1100px;
+	height: 900px;
+	font-size: 1.0rem;
+	gap: 10px;
+
+	/* make it able to be scrolled */
+	overflow-y: scroll;
+}
+
+/* Styling the scrollbar */
+.orders::-webkit-scrollbar {
+    width: 12px; /* Adjust scrollbar width */
+}
+
+.orders::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Adjust scrollbar track color */
+    border-radius: 10px; /* Adjust scrollbar track border radius to make it rounded */
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.orders::-webkit-scrollbar-thumb {
+    background: #888; /* Adjust scrollbar handle color */
+    border-radius: 10px; /* Adjust scrollbar handle border radius to make it rounded */
+}
+
+.orders::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Adjust scrollbar handle color when hovered */
+}

@@ -9,9 +9,12 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "npm install --prefix frontend && npm run build --prefix frontend"
+    "build": "npm install --prefix frontend && npm run build --prefix frontend && echo 'frontend built!' && echo 'frontend built!'"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react-modal": "^3.16.1"
+  }
 }

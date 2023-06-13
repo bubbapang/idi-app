@@ -33,8 +33,6 @@ export default function ItemIndex() {
     
     return (
         <div className='store-page'>
-            {/* {console.log('stores', stores)}
-            {console.log('storeId', storeId)} */}
             <StoreShow store={stores[storeId - 1]} />
             <div className="item-index">
                 {filteredItems.map((item) => (

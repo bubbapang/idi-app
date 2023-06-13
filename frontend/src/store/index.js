@@ -3,16 +3,20 @@ import thunk from 'redux-thunk';
 import session from './session'
 import items from './item';
 import stores from './store';
+import currentStore from './currentStore';
 import storeItems from './storeItem';
 import cartItems from './cartItem';
+import orders from './order';
 
 const rootReducer = combineReducers({
   // mini reducers
   session,
   stores,
+  currentStore,
   items,
   storeItems,
   cartItems,
+  orders,
 });
 
 let enhancer;

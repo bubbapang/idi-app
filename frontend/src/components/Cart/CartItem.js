@@ -6,9 +6,6 @@ export default function CartItem({ item, cartItem }) {
   const [quantity, setQuantity] = useState(cartItem.quantity);
   const dispatch = useDispatch();
 
-  // console.log('item', item)
-  // console.log('cartItem', cartItem)
-
   useEffect(() => {
     setQuantity(cartItem.quantity);
   }, [cartItem.quantity]);

@@ -36,10 +36,6 @@ nav > * {
   position: relative;
 }
 
-.sidebar {
-
-}
-
 .sidebar-header {
   display: flex;
   justify-content: flex-end;

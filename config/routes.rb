@@ -20,6 +20,8 @@ Rails.application.routes.draw do
     resources :items, only: [:index, :show]
     resources :store_items, only: [:index, :show]
     resources :cart_items, only: [:index, :create, :update, :destroy]
+    resources :orders, only: [:index, :create]
+    resources :order_items, only: [:index]
   end
 
   get '*path', to: "static_pages#frontend_index"

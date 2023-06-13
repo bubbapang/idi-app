@@ -1,26 +1,31 @@
 // Action types
 const GET_STORES = 'stores/GET_STORES';
 
+
 // Action creators
 export const getStores = (stores) => ({
     type: GET_STORES,
     stores
 });
 
-// Async action creator (thunk)
+
+// Thunks
 export const getStoresThunk = () => async (dispatch) => {
-    const res = await fetch('/api/stores');
-    if (res.ok) {
-        const stores = await res.json();
+    const response = await fetch('/api/stores/');
+    if (response.ok) {
+        const stores = await response.json();
         dispatch(getStores(stores));
     }
-}
+};
 
 // Reducer
 export default function storesReducer(state = {}, action) {
     switch (action.type) {
         case GET_STORES: {
-            return action.stores
+            return {
+                ...state,
+                ...action.stores
+            }
         }
         default:
             return state;
