@@ -31,20 +31,34 @@ button,
 	border-radius: var(--border-radius);
 	text-align: center;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.adam-content img {
-	width: 100%;
-	max-width: 400px;
+.adam-image {
+	width: 50%;
 	border-radius: var(--border-radius);
+	/* make this flex start */
+	align-self: flex-start;
+}
+
+.adam-info-box {
+	width: 50%;
+	max-width: 400px;
+	text-align: left;
+
 }
 
 .adam-content button {
 	/* make the size larger */
 	font-size: 20px;
+}
+
+.fab {
+	/* make the color white */
+	color: var(--secondary-color);
+
 }
 
 .adam-buttons {

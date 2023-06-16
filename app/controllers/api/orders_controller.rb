@@ -11,41 +11,32 @@ class Api::OrdersController < ApplicationController
     end
 
     def create
-        # from order params, iterate through the order attributes for
-        # each order item, and make new order items after making the order
-        # order_attributes: [:product_id, :quantity]
-
-        # making the order
+        puts("order_params: #{order_params}")
         without_order_attributes = order_params.except(:order_attributes)
-        puts("order params", without_order_attributes)
+        # making the order
         @order = Order.new(without_order_attributes)
-        @order_params = order_params
-
-
 
         if @order.save
             # getting the order item attributes
             order_attributes = order_params[:order_attributes]
-            puts("order_attributes", order_attributes)
 
             # iterating through the order item raw data
             order_attributes.each do |attributes|
                 # making them into order items instances
                 item_id = attributes[:item_id]
                 quantity = attributes[:quantity]
-
-                puts("@order", @order)
-                puts("@order.id", @order.id)
-                puts("item_id", item_id)
-                puts("quantity", quantity)
                 @order_item = OrderItem.new(order_id: @order.id, item_id: item_id, quantity: quantity)
                 if @order_item.save
                     puts("order item saved")
+                    puts("order item saved")
+                    puts("order item saved")
                 else
+                    puts("order item not saved")
+                    puts("order item not saved")
                     puts("order item not saved")
                 end
             end
-            render json: @order, status: :created
+            render :show
         else
             render json: @order.errors.full_messages, status: :unprocessable_entity
         end
@@ -54,7 +45,7 @@ class Api::OrdersController < ApplicationController
     private
 
     def order_params
-        params.require(:order).permit(:user_id, :total, order_attributes: [:item_id, :quantity])
+        params.require(:order).permit(:user_id, :store_id, :total, order_attributes: [:item_id, :quantity])
     end
     
 end

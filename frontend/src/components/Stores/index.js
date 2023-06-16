@@ -42,8 +42,6 @@ export default function StoreIndex() {
 
 	// make an onclick function so that when a store is clicked, it dispatches the set current store thunk
 
-	console.log("stores", stores);
-
 	return (
 		<div className="store-index">
 			{stores.map((store) => (

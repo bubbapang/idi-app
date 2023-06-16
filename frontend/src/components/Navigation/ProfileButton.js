@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import * as sessionActions from "../../store/session";
+import "./ProfileButton.css"
 
 function ProfileButton({ user }) {
 	const dispatch = useDispatch();
-	const [showMenu, setShowMenu] = useState(true);
-
+	const [showMenu, setShowMenu] = useState(false);
 
 	const toggleMenu = (e) => {
 		// stopping event things from happening

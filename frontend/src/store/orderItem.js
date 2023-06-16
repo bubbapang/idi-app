@@ -20,17 +20,17 @@ export const getOrderItemsThunk = (orderID) => async (dispatch) => {
 
 // Reducer
 const orderItemsReducer = (state = [], action) => {
-    switch (action.type) {
-        case 'orderItems/ADD_ITEM':
-            return [...state, action.payload];
-        case 'orderItems/REMOVE_ITEM':
-            const newState = state.filter(item => item.id !== action.payload);
-            return newState;
-        case 'orderItems/CLEAR_ITEMS':
-            return [];
-        default:
-            return state;
-    }
+	switch (action.type) {
+		case "orderItems/ADD_ITEM":
+			return [...state, action.payload];
+		case "orderItems/REMOVE_ITEM":
+			const newState = state.filter((item) => item.id !== action.payload);
+			return newState;
+		case "orderItems/CLEAR_ITEMS":
+			return [];
+		default:
+			return state;
+	}
 };
 
 export default orderItemsReducer;

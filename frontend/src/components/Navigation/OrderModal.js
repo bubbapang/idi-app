@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getOrdersThunk } from "../../store/order";
-import OrderItem from "./OrderItem"; // Import OrderItem component here
+import OrderShow from "./OrderShow";
 
 import "./OrderModal.css";
 
 function OrderModal() {
-	console.log("rendering the order modal");
 
 	const dispatch = useDispatch();
 
@@ -23,8 +22,6 @@ function OrderModal() {
 	// Fetch the orders when the component mounts
 	useEffect(() => {
 		if (user) {
-			console.log("there is a user");
-			console.log("user.id", user.id);
 			dispatch(getOrdersThunk(user.id));
 			// dispatch(getItemsThunk());
 		}
@@ -36,14 +33,20 @@ function OrderModal() {
 	// 	});
 	// });
 
-	console.log("rendering the orders modal");
-	console.log("orders", orders);
+	// if there are no orders, render a message
+	if (!orders.length) {
+		return (
+			<div className="no-orders">
+				<p>You have no orders</p>
+			</div>
+		);
+	}
 
 	return (
 		<ul className="orders">
 			{orders &&
 				orders.map((order, idx) => (
-					<OrderItem key={idx} order={order} /> // Use OrderItem component here
+					<OrderShow key={idx} order={order} />
 				))}
 		</ul>
 	);

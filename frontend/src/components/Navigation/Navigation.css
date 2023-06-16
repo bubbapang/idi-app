@@ -1,124 +1,110 @@
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  background-color: #016b3f;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	background-color: #016b3f;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	z-index: 1;
 }
 
 h1 {
-  font-size: 2rem;
-  margin: 0;
+	font-size: 2rem;
+	margin: 0;
 }
 
 nav > * {
-  display: flex;
-  align-items: center;
-}
-
-.searchbar input[type="text"] {
-  width: 1200px;
-  height: 50px;
-  position: relative;
-}
-
-.searchbar button[type="submit"] {
-  width: 80px;
-  height: 50px;
-  background-color: #1abc9c;
-  color: white;
-  border: none;
-  border-radius: 0 5px 5px 0;
-  font-size: 1.2rem;
-  cursor: pointer;
-  position: relative;
+	display: flex;
+	align-items: center;
 }
 
 .sidebar-header {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1rem;
+	display: flex;
+	justify-content: flex-end;
+	padding: 1rem;
 }
 
 .arrow-button {
-  font-size: 2rem;
-  background-color: transparent;
-  border: none;
-  color: #1abc;
-  cursor: pointer;
+	font-size: 2rem;
+	background-color: transparent;
+	border: none;
+	color: #1abc;
+	cursor: pointer;
 }
 
-.profile-dropdown {
-  /* make the items go to the right of their container */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
+/* .profile-dropdown {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+} */
 
 .home-button {
-  font-size: 1.5rem;
-  background-color: transparent;
-  border: none;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
-  font-weight: bold;
-  margin-left: 50px;
+	font-size: 1.5rem;
+	background-color: transparent;
+	border: none;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: 50px;
 }
 
 .nav-links {
-  font-family: "Roboto", sans-serif;
-  color: white;
-  font-size: 18px;
-  margin: 5px;
+	font-family: "Roboto", sans-serif;
+	color: white;
+	font-size: 18px;
+	margin: 5px;
 }
 
 .nav-links > * {
-  padding: 1rem;
+	padding: 1rem;
 }
 
 .profile-button {
-  background-color: rgb(255, 161, 20);
-  border-radius: 48px;
-  border: 0px;
-  height: 48px;
-  min-width: 82px;
+	background-color: rgb(255, 161, 20);
+	border-radius: 48px;
+	border: 0px;
+	height: 48px;
+	min-width: 82px;
 }
 
 .cart-button {
-  background-color: rgb(14, 199, 14);
-  border-radius: 48px;
-  border: 0px;
-  height: 48px;
-  min-width: 82px;
-  margin: 5px;
+	background-color: rgb(14, 199, 14);
+	border-radius: 48px;
+	border: 0px;
+	height: 48px;
+	min-width: 82px;
+	margin: 5px;
 }
 
 .logout-button {
-  background-color: rgb(255, 243, 20);
-  border-radius: 48px;
-  border: 0px;
-  height: 24px;
-  min-width: 41px;
-  margin: 5px;
+	background-color: rgb(0, 175, 169);
+	border-radius: 48px;
+	border: 0px;
+	height: 24px;
+	min-width: 41px;
+	min-height: 30px;
+	margin: 5px;
 }
 
 .modals {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .modals button {
-  /* background-color: rgb(14, 199, 14); */
-  border-radius: 48px;
-  border: 0px;
-  height: 44px;
-  min-width: 41px;
-  width: 90px;
-  margin: 10px;
-  color: white;
-  font-size: 1.2rem;
+	/* background-color: rgb(14, 199, 14); */
+	border-radius: 48px;
+	border: 0px;
+	height: 44px;
+	min-width: 41px;
+	width: 90px;
+	margin: 10px;
+	color: white;
+	font-size: 1.4rem;
+}
+
+.fas {
+	font-size: 1.7rem;
 }

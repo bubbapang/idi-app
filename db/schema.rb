@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_09_072416) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_13_043907) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -64,7 +64,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_09_072416) do
     t.bigint "order_id", null: false
     t.bigint "item_id", null: false
     t.integer "quantity"
-    
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["item_id"], name: "index_order_items_on_item_id"
@@ -76,6 +75,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_09_072416) do
     t.decimal "total"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "store_id", null: false
     t.index ["user_id"], name: "index_orders_on_user_id"
   end
 

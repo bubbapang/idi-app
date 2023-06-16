@@ -3,6 +3,10 @@
 	--secondary-color: #fff;
 }
 
+.no-orders {
+	margin: 10px;
+}
+
 /* the overall flexbox for all the order item LIs */
 .orders {
 	display: flex;

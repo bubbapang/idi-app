@@ -98,6 +98,7 @@ function Navigation() {
 	return (
 		<>
 			<nav>
+				{/* orders button */}
 				<button
 					className="orders-button"
 					onClick={() => {
@@ -112,6 +113,7 @@ function Navigation() {
 						<OrderModal />
 					</Modal>
 				)}
+
 				{/* home */}
 				<Link to="/" className="home-button">
 					grocerease
@@ -135,6 +137,7 @@ function Navigation() {
 						<About />
 					</Modal>
 				)}
+
 				{/* session links */}
 				<div className="nav-links">{sessionLinks}</div>
 			</nav>

@@ -10,7 +10,6 @@ export default function StoreShow({ store }) {
 
 	// write a function that handles the click of a store
 	function handleClick(store) {
-		console.log("store", store);
 		dispatch(setCurrentStore(store));
 	}
 

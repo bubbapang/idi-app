@@ -1,5 +1,4 @@
 // Action types
-const GET_STORE_ITEM = 'storeItem/GET_STORE_ITEM';
 const GET_STORE_ITEMS = 'storeItem/GET_STORE_ITEMS';
 
 // Action creators
@@ -8,42 +7,24 @@ export const getStoreItems = (storeItems) => ({
     storeItems
 });
 
-export const getStoreItem = (storeItem) => ({
-    type: GET_STORE_ITEM,
-    storeItem
-});
-
 // Async action creator (thunk)
-export const getStoreItemsThunk = (storeId) => {
-    return async (dispatch) => {
-            const res = await fetch(`/api/store_items?storeId=${storeId}`);
-            if (res.ok) {
-            const storeItems = await res.json();
-            // changes the state of storeItems to an object with the storeItem id as the key
-            dispatch(getStoreItems(storeItems));
-            return storeItems; // return the data
-        }
-    };
+export const getStoreItemsThunk = () => async (dispatch) => {
+    const response = await fetch('/api/store_items');
+    const storeItems = await response.json();
+    dispatch(getStoreItems(storeItems)); // you need to implement this action
 };
 
-export const getStoreItemThunk = (id) => async (dispatch) => {
-    const res = await fetch(`/api/store_items/${id}`);
-    if (res.ok) {
-        const storeItem = await res.json();
-        dispatch(getStoreItem(storeItem));
-    }
-}
+export const getStoreItemsByStoreIdThunk = (storeId) => async (dispatch) => {
+    const response = await fetch(`/api/store_items?store_id=${storeId}`);
+    const storeItems = await response.json();
+    dispatch(getStoreItems(storeItems)); // you need to implement this action
+};
 
 // Reducer
 export default function storeItemReducer(state = {}, action) {
     switch (action.type) {
         case GET_STORE_ITEMS: {
             return action.storeItems
-        }
-        case GET_STORE_ITEM: {
-            const newState = { ...state };
-            newState[action.storeItem.id] = action.storeItem;
-            return newState;
         }
         default:
             return state;

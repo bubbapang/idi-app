@@ -16,13 +16,15 @@ export default function Cart() {
 	const itemsArray = Object.values(items);
 	const cartItemsArray = Object.values(cartItems);
 
+	const currentStore = useSelector((state) => state.currentStore);
+
 	// what is this doing?
 	const filteredItems =
 		itemsArray.length && cartItemsArray.length
 			? cartItemsArray.map((cartItem) => {
-					const filteredItem = items[cartItem.itemId];
-					return [filteredItem, cartItem];
-			  })
+				const filteredItem = items[cartItem.itemId];
+				return [filteredItem, cartItem];
+			})
 			: [];
 
 	useEffect(() => {
@@ -47,7 +49,7 @@ export default function Cart() {
 			const order = {
 				order: {
 					user_id: userId,
-					
+					store_id: currentStore.id,
 					total: parseFloat(totalCost),
 					order_attributes: cartItemsArray.map((cartItem) => {
 						return {

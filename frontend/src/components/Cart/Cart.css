@@ -7,8 +7,10 @@
 .cart-item-button {
   min-width: 24px;
   height: 24px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin-left: 8px;
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
 }
 
 .cart-item {
