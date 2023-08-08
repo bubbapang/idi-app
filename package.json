@@ -1,7 +1,7 @@
 {
-  "name": "grocer-ease",
+  "name": "idi-online",
   "version": "1.0.0",
-  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "description": "",
   "engines": {
     "node": "16.x"
   },
@@ -9,6 +9,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "start": "node lib/index.js",
     "build": "npm install --prefix frontend && npm run build --prefix frontend && echo 'frontend built!' && echo 'frontend built!'"
   },
   "keywords": [],
