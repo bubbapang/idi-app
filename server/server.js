@@ -21,9 +21,8 @@ app.get('/', (req, res) => {
     res.send('Welcome to the root!');
 });
 
-
 // Use the routes for handling notes
-app.use('idi-online-production.up.railway.app/notes', notesRouter);
+app.use('/notes', notesRouter);
 
 // Start the server
 const port = process.env.PORT || 5000;
