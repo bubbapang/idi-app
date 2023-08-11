@@ -7,17 +7,20 @@ function NotesComponent() {
     const [title, setTitle] = useState('');
     const [content, setContent] = useState('');
 
+    // Base URL for the backend
+    const baseURL = 'https://idi-online-production.up.railway.app';
+
     // READ: Fetch notes from the backend
     const fetchNotes = () => {
-        fetch('/notes')
+        fetch(`${baseURL}/notes`)
             .then((res) => res.json())
             .then((data) => setNotes(data))
             .catch((err) => console.error(err));
     };
-
+    
     // CREATE: Add a new note
     const createNote = () => {
-        fetch('/notes', {
+        fetch(`${baseURL}/notes`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ title, content }),
@@ -29,11 +32,11 @@ function NotesComponent() {
             })
             .catch((err) => console.error(err));
     };
-
+    
     // UPDATE: Update a note by ID
     const updateNote = () => {
         if (!selectedNote) return;
-        fetch(`/notes/${selectedNote._id}`, {
+        fetch(`${baseURL}/notes/${selectedNote._id}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ title, content }),
@@ -46,13 +49,14 @@ function NotesComponent() {
             })
             .catch((err) => console.error(err));
     };
-
+    
     // DELETE: Delete a note by ID
     const deleteNote = (id) => {
-        fetch(`/notes/${id}`, { method: 'DELETE' })
+        fetch(`${baseURL}/notes/${id}`, { method: 'DELETE' })
             .then(() => fetchNotes())
             .catch((err) => console.error(err));
     };
+    
 
     // Load notes on component mount
     useEffect(() => {

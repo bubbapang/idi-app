@@ -6,9 +6,9 @@ function App() {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:5000')
+    fetch('https://idi-online-production.up.railway.app/')
       .then((response) => response.text())
-      .then((text) => setMessage(text));
+      .then((text) => setMessage(text));  
   }, []);
 
   return (
