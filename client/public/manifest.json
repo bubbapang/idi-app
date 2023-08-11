@@ -10,12 +10,7 @@
     {
       "src": "idi-logo.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "idi-logo.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "48x48"
     }
   ],
   "start_url": ".",
