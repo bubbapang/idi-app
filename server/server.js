@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
-import notesRouter from './routes.js';
+import ordersRouter from './routes.js';
 
 // Load environment variables from .env file
 import dotenv from 'dotenv';
@@ -21,8 +21,8 @@ app.get('/', (req, res) => {
     res.send('Welcome to the root!');
 });
 
-// Use the routes for handling notes
-app.use('/notes', notesRouter);
+// Use the routes for handling orders
+app.use('/orders', ordersRouter);
 
 // Start the server
 const port = process.env.PORT || 5000;

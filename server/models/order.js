@@ -2,13 +2,13 @@ import mongoose from 'mongoose';
 
 const Schema = mongoose.Schema;
 
-const noteSchema = new Schema({
+const orderSchema = new Schema({
     title: { type: String, required: true },
     content: { type: String, required: true },
 }, {
     timestamps: true,
 });
 
-const Note = mongoose.model('Note', noteSchema);
+const Order = mongoose.model('Order', orderSchema);
 
-export default Note;
+export default Order;

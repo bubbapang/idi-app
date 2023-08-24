@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import NotesComponent from './components/notesComponent';
+import OrdersComponent from './components/ordersComponent';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <h1>Backend: {message}</h1>
       <h2>Frontend: Hello World!</h2>
-      <NotesComponent />
+      <OrdersComponent />
     </div>
   );
 }

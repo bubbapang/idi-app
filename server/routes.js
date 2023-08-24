@@ -1,41 +1,41 @@
 import express from 'express';
-import Note from './models/note.js';
+import Order from './models/order.js';
 
 const router = express.Router();
 
-// CREATE: Add a new note
+// CREATE: Add a new order
 router.post('/', (req, res) => {
     const { title, content } = req.body;
-    const newNote = new Note({ title, content });
-    newNote.save()
-        .then(() => res.json('Note added!'))
+    const newOrder = new Order({ title, content });
+    newOrder.save()
+        .then(() => res.json('Order added!'))
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
-// READ: Get all notes
+// READ: Get all orders
 router.get('/', (req, res) => {
-    Note.find()
-        .then(notes => res.json(notes))
+    Order.find()
+        .then(orders => res.json(orders))
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
-// UPDATE: Update a note by ID
+// UPDATE: Update a order by ID
 router.put('/:id', (req, res) => {
-    Note.findById(req.params.id)
-        .then(note => {
-            note.title = req.body.title;
-            note.content = req.body.content;
-            note.save()
-                .then(() => res.json('Note updated!'))
+    Order.findById(req.params.id)
+        .then(order => {
+            order.title = req.body.title;
+            order.content = req.body.content;
+            order.save()
+                .then(() => res.json('Order updated!'))
                 .catch(err => res.status(400).json('Error: ' + err));
         })
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
-// DELETE: Delete a note by ID
+// DELETE: Delete a order by ID
 router.delete('/:id', (req, res) => {
-    Note.findByIdAndDelete(req.params.id)
-        .then(() => res.json('Note deleted.'))
+    Order.findByIdAndDelete(req.params.id)
+        .then(() => res.json('Order deleted.'))
         .catch(err => res.status(400).json('Error: ' + err));
 });
 

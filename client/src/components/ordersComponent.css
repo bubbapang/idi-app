@@ -1,11 +1,11 @@
-.note-box {
+.order-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.note-list {
+.order-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
