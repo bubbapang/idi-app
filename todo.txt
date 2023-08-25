@@ -7,3 +7,7 @@ name of person ordering* (could be different from the person who registered)
 the actual order of items
 the date of the order* (automatic)
 the date the order was shipped* (salesperson does this)
+
+what goes into a customer?
+make sure i have an ongoing list of idi customers
+    only one account per company
