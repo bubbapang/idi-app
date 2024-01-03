@@ -1,13 +1,10 @@
-what goes into an order?
 
-* = pre-gotten field on registration
-company name*
-address*
-name of person ordering* (could be different from the person who registered)
-the actual order of items
-the date of the order* (automatic)
-the date the order was shipped* (salesperson does this)
+elon process:
+question
+remove
+amplify
+accelerate
+automate
 
-what goes into a customer?
-make sure i have an ongoing list of idi customers
-    only one account per company
+what is the least that this app needs?
+a way for customers to add an order

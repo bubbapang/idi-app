@@ -1,10 +1,10 @@
 // In authFunctions.js
 import { auth } from '../firebaseConfig';
+import { createUserWithEmailAndPassword } from "firebase/auth"
   
 // Sign Up
 const signUp = async (email, password) => {
-  console.log(auth)
-  // await auth.createUserWithEmailAndPassword(email, password);
+  await createUserWithEmailAndPassword(email, password);
 };
 
 // Sign In
